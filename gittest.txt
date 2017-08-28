@@ -1,0 +1,167 @@
+brianchang @ ~/Desktop
+ [341] → cd DojoAssignments/
+
+brianchang @ ~/Desktop/DojoAssignments
+ [342] → ls
+MEAN            Ruby            iOS
+Python          WebFundamentals netCore
+
+brianchang @ ~/Desktop/DojoAssignments
+ [343] → cd WebFundamentals/
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals
+ [344] → ls
+APIandAJAX Git        Javascript about.txt  jQuery
+CSS        HTML       Notes      index.html style.css
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals
+ [345] → cd Git/
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git
+ [346] → ls
+about.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git
+ [347] → mkdir gittest
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git
+ [348] → cd gittest/
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest
+ [349] → ls
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest
+ [350] → git init
+Initialized empty Git repository in /Users/brianchang/Desktop/DojoAssignments/WebFundamentals/Git/gittest/.git/
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest
+ [351] → touch index.html styles.css aboutMe.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest
+ [352] → git add -A
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest
+ [353] → git commit -m "doing this assignment for learning to commit"
+[master (root-commit) 54a63f3] doing this assignment for learning to commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [354] → nano aboutMe.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [355] → nano aboutMe.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [356] → git commit -m "edited about me with a little bio and then added my favorite movie"
+On branch master
+Changes not staged for commit:
+	modified:   aboutMe.txt
+
+no changes added to commit
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [357] → git add -A
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [358] → git commit -m "edited about me with a little bio and then added my favorite movie
+ | → "
+[master 632feee] edited about me with a little bio and then added my favorite movie
+ 1 file changed, 10 insertions(+)
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [359] → git log
+commit 632feee2709d2b05c6972fda04248778ddb2ecf6
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:32:54 2017 -0700
+
+    edited about me with a little bio and then added my favorite movie
+
+commit 54a63f386113cce1972598e0f4572140d3554649
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:28:34 2017 -0700
+
+    doing this assignment for learning to commit
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [360] → nano aboutMe.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [361] → git add -A
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [362] → git commit -m "added favorite food"
+[master f159876] added favorite food
+ 1 file changed, 2 insertions(+)
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [363] → git revert -n f159876
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [364] → git log
+commit f15987657a430416ee93bf79ebecb475c814e167
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:34:01 2017 -0700
+
+    added favorite food
+
+commit 632feee2709d2b05c6972fda04248778ddb2ecf6
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:32:54 2017 -0700
+
+    edited about me with a little bio and then added my favorite movie
+
+commit 54a63f386113cce1972598e0f4572140d3554649
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:28:34 2017 -0700
+
+    doing this assignment for learning to commit
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [365] → git revert -n f15987657a430416ee93bf79ebecb475c814e167
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [366] → git log
+commit f15987657a430416ee93bf79ebecb475c814e167
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:34:01 2017 -0700
+
+    added favorite food
+
+commit 632feee2709d2b05c6972fda04248778ddb2ecf6
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:32:54 2017 -0700
+
+    edited about me with a little bio and then added my favorite movie
+
+commit 54a63f386113cce1972598e0f4572140d3554649
+Author: Brian Chang <kyoukamu@gmail.com>
+Date:   Mon Aug 28 13:28:34 2017 -0700
+
+    doing this assignment for learning to commit
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [367] → git status
+On branch master
+You are currently reverting commit f159876.
+  (all conflicts fixed: run "git revert --continue")
+  (use "git revert --abort" to cancel the revert operation)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   aboutMe.txt
+
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [368] → nano aboutMe.txt
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [369] → git add -A
+
+brianchang @ ~/Desktop/DojoAssignments/WebFundamentals/Git/gittest * master
+ [370] → git commit -m "deleted my favorite food as bread, it is now curry"
+[master 9da36e2] deleted my favorite food as bread, it is now curry
+ 1 file changed, 1 insertion(+), 1 deletion(-)
