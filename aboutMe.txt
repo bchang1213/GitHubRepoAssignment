@@ -8,3 +8,5 @@ My name is Brian Chang. I was born in Gaithersburg, MD.
  programming, web development, and especially mobile phone app development.
 
 My favorite movie of the 2000's is Inglourious Basterds.
+
+My favorite food is bread.
