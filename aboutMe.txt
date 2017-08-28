@@ -1,0 +1,10 @@
+My name is Brian Chang. I was born in Gaithersburg, MD.
+ I grew up in Sterling, Virginia.
+ I went to college at the University of Washington in Seattle from 2009 to 2013.
+ I've been a traveling and competing athlete in brazilian jiu-jitsu for 9 years
+ since I was 17.
+ I've competed and won in tournaments all around the world.
+ I've always had a fascination with computers and am excited to learn about
+ programming, web development, and especially mobile phone app development.
+
+My favorite movie of the 2000's is Inglourious Basterds.
